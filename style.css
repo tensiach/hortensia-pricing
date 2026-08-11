@@ -549,13 +549,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 @media (min-width: 860px) {
   .video-card { flex-basis: 46%; }
-  .section--video .section-inner,
   .video-category-heading,
   .video-scroll { padding-left: calc((100vw - var(--max-width)) / 2); padding-right: calc((100vw - var(--max-width)) / 2); }
 }
 @media (min-width: 1180px) {
   .video-card { flex-basis: 44%; }
-  .section--video .section-inner,
   .video-category-heading,
   .video-scroll { padding-left: calc((100vw - var(--video-max-width)) / 2); padding-right: calc((100vw - var(--video-max-width)) / 2); }
 }
