@@ -580,7 +580,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 
   .service--simple:not(.service--addon):not(.service--rush) {
     display: grid;
-    grid-template-columns: 1fr 380px;
+    grid-template-columns: 1fr 440px;
     align-items: center;
     gap: 1.5rem;
   }
@@ -589,17 +589,17 @@ ul { margin: 0; padding: 0; list-style: none; }
     border-top: none;
     padding-top: 0;
     margin-left: auto;
-    max-width: 380px;
+    max-width: 440px;
   }
 
   .service--addon {
     display: grid;
-    grid-template-columns: 1fr 380px;
+    grid-template-columns: 1fr 440px;
     align-items: center;
     gap: 1.5rem;
   }
   .service--addon .service-header { margin-bottom: 0; }
-  .service--addon .simple-prices { border-top: none; padding-top: 0; margin-left: auto; max-width: 380px; }
+  .service--addon .simple-prices { border-top: none; padding-top: 0; margin-left: auto; max-width: 440px; }
 
   .price-block { align-items: flex-end; }
   .service--multi .service-header,
