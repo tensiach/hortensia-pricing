@@ -115,7 +115,12 @@ const pricelist = {
                 { title: "Full Song Mix", url: "https://youtu.be/AaPIgeaK_qE?si=TE2NU2G0qk47zABh" },
                 { title: "Full Song Mix", url: "https://youtu.be/eNHioJiXESg?si=21PDkvxcS-qIfc6P" },
                 { title: "Full Song Mix", url: "https://youtu.be/yTP4Gi1FVlU?si=JrZxaojcDjhXp9Qa" },
-                { title: "Full Song Mix", url: "https://youtu.be/6qYKj-KzCRc?si=fPaxrw4LVJA0XAkG" }
+                { title: "Full Song Mix", url: "https://youtu.be/6qYKj-KzCRc?si=fPaxrw4LVJA0XAkG" },
+                { title: "Full Song Mix", url: "https://youtu.be/_SmvyLHOqU0?si=faM_4rSHqGXixg43" },
+                { title: "Full Song Mix", url: "https://youtu.be/_SmvyLHOqU0?si=faM_4rSHqGXixg43" },
+                { title: "Full Song Mix", url: "https://youtu.be/FkF9R6cvH6Q?si=z-ikmzU_RtVIYIMC" },
+                { title: "Full Song Mix", url: "" }
+               
             ]
         },
         {
@@ -124,7 +129,8 @@ const pricelist = {
                 { title: "Arrangement Example 1", url: "https://youtu.be/3Z2wxmhFT6Q?si=EzcJL6PW6sFXVKEE" },
                 { title: "Arrangement Example 1", url: "https://youtu.be/XgOCQgWvSuE?si=y8tQ_94C1Q_Qgo1U" },
                 { title: "Arrangement Example 1", url: "https://youtu.be/fgtfp5FaPXk?si=Re3ZsPVvKHCVLkiP" },
-                { title: "Arrangement Example 2", url: "https://youtu.be/cTKoxy361ms?si=xiuI6MM1GjrJ9Jmg" }
+                { title: "Arrangement Example 2", url: "https://youtu.be/cTKoxy361ms?si=xiuI6MM1GjrJ9Jmg" },
+                { title: "Arrangement Example 2", url: "https://youtu.be/RXh3KaEAOVE?si=F4cAim_qIRD1R3_9" }
             ]
         },
         {
