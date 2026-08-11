@@ -31,6 +31,7 @@
 
   --space-section: clamp(3.5rem, 8vw, 6.5rem);
   --max-width: 760px;
+  --video-max-width: 1100px;
 }
 
 /* =========================================================================
@@ -527,15 +528,16 @@ ul { margin: 0; padding: 0; list-style: none; }
   .video-card { flex-basis: 60%; }
 }
 @media (min-width: 860px) {
-  .video-card { flex-basis: 34%; }
+  .video-card { flex-basis: 46%; }
   .section--video .section-inner,
   .video-category-heading,
   .video-scroll { padding-left: calc((100vw - var(--max-width)) / 2); padding-right: calc((100vw - var(--max-width)) / 2); }
 }
 @media (min-width: 1180px) {
+  .video-card { flex-basis: 44%; }
   .section--video .section-inner,
   .video-category-heading,
-  .video-scroll { padding-left: calc((100vw - var(--max-width)) / 2 + 1.5rem); padding-right: calc((100vw - var(--max-width)) / 2 + 1.5rem); }
+  .video-scroll { padding-left: calc((100vw - var(--video-max-width)) / 2); padding-right: calc((100vw - var(--video-max-width)) / 2); }
 }
 
 /* =========================================================================
