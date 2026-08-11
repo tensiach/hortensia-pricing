@@ -91,7 +91,7 @@ const pricelist = {
 
     socials: [
         { name: "Instagram", url: "" },
-        { name: "YouTube", url: "https://youtube.com/@USERNAME" },
+        { name: "YouTube", url: "https://youtube.com/@hortensiav2" },
         { name: "TikTok", url: "" }, // leave url empty to hide a social link
         { name: "Discord", url: "" }, // profile link that opens a DM — see README for how to get your User ID
         { name: "X", url: "https://x.com/Hortensia_id" }
@@ -108,21 +108,21 @@ const pricelist = {
             category: "Vocal Mix",
             videos: [
                 { title: "Full Song Mix", url: "https://www.youtube.com/watch?v=SDZ9hL4vpD0" },
-                { title: "TV Ver Mix", url: "https://www.youtube.com/watch?v=VIDEO_ID_2" },
+                { title: "Full Song Mix", url: "hhttps://youtu.be/K82VzErG8lQ?si=9t6FhmeBQG2PCia-" },
                 { title: "YT Short Mix", url: "https://www.youtube.com/watch?v=VIDEO_ID_3" }
             ]
         },
         {
             category: "Arrangement",
             videos: [
-                { title: "Arrangement Example 1", url: "https://www.youtube.com/watch?v=VIDEO_ID_4" },
+                { title: "Arrangement Example 1", url: "https://youtu.be/3Z2wxmhFT6Q?si=EzcJL6PW6sFXVKEE" },
                 { title: "Arrangement Example 2", url: "https://www.youtube.com/watch?v=VIDEO_ID_5" }
             ]
         },
         {
             category: "Instrumental Recreation",
             videos: [
-                { title: "Instrumental Recreation 1", url: "https://www.youtube.com/watch?v=VIDEO_ID_6" },
+                { title: "Instrumental Recreation 1", url: "https://youtu.be/0XLgswOFi7s?si=AVLHeS6Xm8a99zHE" },
                 { title: "Instrumental Recreation 2", url: "https://www.youtube.com/watch?v=VIDEO_ID_7" }
             ]
         }
