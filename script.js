@@ -87,7 +87,7 @@ const pricelist = {
         }
     ],
 
-    orderUrl: "https://discord.com/users/YOUR_USER_ID", // <-- replace with your WhatsApp number, digits only after wa.me/
+    orderUrl: "https://discord.com/users/790156100719738891", // <-- replace with your WhatsApp number, digits only after wa.me/
 
     socials: [
         { name: "Instagram", url: "" },
