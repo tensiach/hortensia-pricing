@@ -162,11 +162,11 @@ function renderTierCard(tier) {
       <div class="tier-prices">
         <div class="price-block">
           <span class="price-label">IDR</span>
-          <span class="price-value">Rp${tier.idr}</span>
+          <span class="price-value">${keepUnitTogether("Rp" + tier.idr)}</span>
         </div>
         <div class="price-block price-block--intl">
           <span class="price-label">International</span>
-          <span class="price-value">${tier.international}</span>
+          <span class="price-value">${keepUnitTogether(tier.international)}</span>
         </div>
         ${levelMeter(tier.level)}
       </div>
@@ -196,11 +196,11 @@ function renderSimpleService(service, isAddon) {
       <div class="simple-prices">
         <div class="price-block">
           <span class="price-label">IDR</span>
-          <span class="price-value">${service.idr}</span>
+          <span class="price-value">${keepUnitTogether(service.idr)}</span>
         </div>
         <div class="price-block price-block--intl">
           <span class="price-label">International</span>
-          <span class="price-value">${service.international}</span>
+          <span class="price-value">${keepUnitTogether(service.international)}</span>
         </div>
       </div>
     </article>`;
@@ -219,11 +219,11 @@ function renderRushCard(service) {
       <div class="simple-prices">
         <div class="price-block">
           <span class="price-label">IDR</span>
-          <span class="price-value">${service.idr}</span>
+          <span class="price-value">${keepUnitTogether(service.idr)}</span>
         </div>
         <div class="price-block price-block--intl">
           <span class="price-label">International</span>
-          <span class="price-value">${service.international}</span>
+          <span class="price-value">${keepUnitTogether(service.international)}</span>
         </div>
       </div>
       <p class="service-detail">${service.detail}</p>
@@ -237,6 +237,14 @@ function fixIdrPrefix(str) {
     return str; // already has +, or a range starting with a currency-neutral char
 }
 
+function keepUnitTogether(str) {
+    // On narrow screens a price like "50k–80k / Layer" can wrap right after
+    // the "/", stranding the unit word alone on its own line. A non-breaking
+    // space between "/" and the word keeps them together, so if it wraps at
+    // all it wraps as a clean "50k–80k" / "/ Layer" pair instead.
+    return str.replace(/\/ /g, "/\u00A0");
+}
+
 function renderAdditionalService(service) {
     return `
     <article class="service service--simple fade-in">
@@ -247,11 +255,11 @@ function renderAdditionalService(service) {
       <div class="simple-prices">
         <div class="price-block">
           <span class="price-label">IDR</span>
-          <span class="price-value">${fixIdrPrefix(service.idr)}</span>
+          <span class="price-value">${keepUnitTogether(fixIdrPrefix(service.idr))}</span>
         </div>
         <div class="price-block price-block--intl">
           <span class="price-label">International</span>
-          <span class="price-value">${service.international}</span>
+          <span class="price-value">${keepUnitTogether(service.international)}</span>
         </div>
       </div>
     </article>`;
