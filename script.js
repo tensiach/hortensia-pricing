@@ -10,7 +10,7 @@
 const pricelist = {
     brandName: "Hortensia",
     tagline: "Music Production & Vocal Mixing",
-    avatar: "assets/profile.png", // replace this file to change the photo
+    avatar: "assets/profile.jpg", // replace this file to change the photo
 
     mainServices: [
         {
