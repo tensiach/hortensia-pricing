@@ -122,7 +122,8 @@ const pricelist = {
                 { title: "Full Song Mix", url: "https://youtu.be/EUsPbQQC1AQ?si=bZFv20H8tR7OuMt8" },
                 { title: "Full Song Mix", url: "https://youtu.be/P4CrsDnqeQg?si=BfU42AfuGI6NSqNX" },
                 { title: "SHort Ver Mix", url: "https://youtube.com/shorts/KSqUf4Gh030?si=CiMg0hHc8aC-jhbA" },
-                { title: "SHort Ver Mix", url: "https://youtu.be/eRmO_A55Olg?si=-gRViaIqkR47HcLk" }
+                { title: "SHort Ver Mix", url: "https://youtu.be/eRmO_A55Olg?si=-gRViaIqkR47HcLk" },
+                { title: "SHort Ver Mix", url: "https://youtu.be/n7tUbeMzWkk?si=blj_0aoTfgQSP1b4" }
             ]
         },
         {
