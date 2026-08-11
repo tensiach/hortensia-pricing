@@ -109,7 +109,8 @@ const pricelist = {
             videos: [
                 { title: "Full Song Mix", url: "https://www.youtube.com/watch?v=SDZ9hL4vpD0" },
                 { title: "Full Song Mix", url: "hhttps://youtu.be/K82VzErG8lQ?si=9t6FhmeBQG2PCia-" },
-                { title: "YT Short Mix", url: "https://www.youtube.com/watch?v=VIDEO_ID_3" }
+                { title: "YT Short Mix", url: "https://youtu.be/k8UL9TJdpsU?si=KF6I20vdI5iDXAV7" },
+                { title: "YT Short Mix", url: "https://youtu.be/6qYKj-KzCRc?si=fPaxrw4LVJA0XAkG" }
             ]
         },
         {
