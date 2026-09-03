@@ -141,7 +141,7 @@ const pricelist = {
             category: "Instrumental Recreation",
             videos: [
                 { title: "Instrumental Recreation 1", url: "https://youtu.be/0XLgswOFi7s?si=AVLHeS6Xm8a99zHE" },
-                { title: "Instrumental Recreation 2", url: "https://www.youtube.com/watch?v=VIDEO_ID_7" }
+                { title: "Instrumental Recreation 2", url: "https://youtu.be/LLTAYfskdaY?si=fEGOiYSOGB-hgCqZ" }
             ]
         }
     ],
