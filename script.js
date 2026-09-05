@@ -84,7 +84,7 @@ const pricelist = {
             idr: "390k",
             international: "$50–70",
             detail: "A custom remake of an existing instrumental. Price varies depending on duration and complexity."
-        }
+        },
         {
             name: "Rearrangement",
             idr: "Starting from 250k",
