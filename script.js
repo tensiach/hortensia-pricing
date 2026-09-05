@@ -31,7 +31,7 @@ const pricelist = {
             detail: "Harmony created by pitch-shifting the lead vocal."
         },
         {
-            name: "Recorded Harmony",
+            name: "Recorded Harmony/Backing Vocal",
             type: "addon",
             idr: "+50k / Layer",
             international: "+$10 / Layer",
@@ -84,6 +84,12 @@ const pricelist = {
             idr: "390k",
             international: "$50–70",
             detail: "A custom remake of an existing instrumental. Price varies depending on duration and complexity."
+        }
+        {
+            name: "Rearrangement",
+            idr: "Starting from 250k",
+            international: "Starting From 25$",
+            detail: "Reworking the arrangement, instrumentation, and structure of an existing song while preserving its core identity."
         }
     ],
 
