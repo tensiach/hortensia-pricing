@@ -135,12 +135,12 @@ const pricelist = {
         {
             category: "Arrangement",
             videos: [
-                { title: "Arrangement Example 1", url: "https://youtu.be/3Z2wxmhFT6Q?si=EzcJL6PW6sFXVKEE" },
-                { title: "Arrangement Example 1", url: "https://youtu.be/XgOCQgWvSuE?si=y8tQ_94C1Q_Qgo1U" },
-                { title: "Arrangement Example 1", url: "https://youtu.be/fgtfp5FaPXk?si=Re3ZsPVvKHCVLkiP" },
-                { title: "Arrangement Example 2", url: "https://youtu.be/cTKoxy361ms?si=xiuI6MM1GjrJ9Jmg" },
-                { title: "Arrangement Example 2", url: "https://youtu.be/RXh3KaEAOVE?si=F4cAim_qIRD1R3_9" },
-                { title: "Arrangement Example 2", url: "https://youtu.be/Mt8x4GeVHO0?si=h7PzA-VoGbcoXZRf" }
+                { title: "Rearrangement", url: "https://youtu.be/3Z2wxmhFT6Q?si=EzcJL6PW6sFXVKEE" },
+                { title: "Rearrangement", url: "https://youtu.be/XgOCQgWvSuE?si=y8tQ_94C1Q_Qgo1U" },
+                { title: "Rearrangement", url: "https://youtu.be/fgtfp5FaPXk?si=Re3ZsPVvKHCVLkiP" },
+                { title: "Arrangement", url: "https://youtu.be/cTKoxy361ms?si=xiuI6MM1GjrJ9Jmg" },
+                { title: "Rearrangement", url: "https://youtu.be/RXh3KaEAOVE?si=F4cAim_qIRD1R3_9" },
+                { title: "Rearrangement", url: "https://youtu.be/Mt8x4GeVHO0?si=h7PzA-VoGbcoXZRf" }
             ]
         },
         {
